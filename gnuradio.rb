@@ -17,7 +17,7 @@ class Gnuradio < Formula
   depends_on "numpy" => "python@2"
   depends_on "scipy" => "python@2"
   depends_on "docutils" => "python@2"
-  depends_on :fortran => "python@2"
+  depends_on "gcc" => "python@2"
   depends_on "swig" => "python@2"
   depends_on "cmake" => "python@2"
   depends_on "boost"
