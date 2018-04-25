@@ -11,15 +11,15 @@ class Gnuradio < Formula
 
   depends_on "python@2"
   build.without? "python-deps"
-  depends_on "Cheetah" => :python
-  depends_on "lxml" => :python
-  depends_on "matplotlib" => :python
-  depends_on "numpy" => :python
-  depends_on "scipy" => :python
-  depends_on "docutils" => :python
-  depends_on :fortran => :build
-  depends_on "swig" => :build
-  depends_on "cmake" => :build
+  depends_on "Cheetah" => "python@2"
+  depends_on "lxml" => "python@2"
+  depends_on "matplotlib" => "python@2"
+  depends_on "numpy" => "python@2"
+  depends_on "scipy" => "python@2"
+  depends_on "docutils" => "python@2"
+  depends_on :fortran => "python@2"
+  depends_on "swig" => "python@2"
+  depends_on "cmake" => "python@2"
   depends_on "boost"
   depends_on "cppunit"
   depends_on "gsl"
