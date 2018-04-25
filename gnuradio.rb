@@ -9,7 +9,7 @@ class Gnuradio < Formula
   option "without-qt", "Build with QT widgets in addition to wxWidgets"
   option "without-docs", "Build gnuradio documentation"
 
-  depends_on :python
+  depends_on python@2
   build.without? "python-deps"
   depends_on "Cheetah" => :python
   depends_on "lxml" => :python
